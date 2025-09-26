@@ -2,45 +2,57 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Каталог товаров</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары - Семестровая работа</title>
     <link rel="stylesheet" href="../style/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Мой Сайт</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="goods.html">Каталог товаров</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <div>
-            <img src="../images/goods1.jpg" alt="Товар 1">
-            <h3>Товар 1</h3>
-            <p>Цена: 100 руб.</p>
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
         </div>
-        
-        <div>
-            <img src="../images/goods2.jpg" alt="Товар 2">
-            <h3>Товар 2</h3>
-            <p>Цена: 200 руб.</p>
+        <div class="content">
+            <h1 class="profile-title">Наши товары</h1>
+            
+            <div class="goods-section">
+                <div class="goods-grid">
+                    <div class="product-card">
+                        <img src="../images/goods1.jpg" alt="Товар 1" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-title">Прайм</h3>
+                            <p class="product-desc">Перевод вашего состояния в прайм</p>
+                            <div class="product-price">1 500 ₽</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="../images/goods2.jpg" alt="Товар 2" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-title">Поздороваться с котиком</h3>
+                            <p class="product-desc">Милый котик подходит к вам и даёт вам лапку</p>
+                            <div class="product-price">5 000 ₽</div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="../images/goods3.jpg" alt="Товар 3" class="product-image">
+                        <div class="product-info">
+                            <h3 class="product-title">Позвонить котику</h3>
+                            <p class="product-desc">Звонок котику и он вам помурчит</p>
+                            <div class="product-price">2 500 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <div>
-            <img src="../images/goods3.jpg" alt="Товар 3">
-            <h3>Товар 3</h3>
-            <p>Цена: 300 руб.</p>
-        </div>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Мой Сайт. Все права защищены.</p>
-    </footer>
+        <div class="footer">Футер</div>
+    </div>
 </body>
 </html>

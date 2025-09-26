@@ -2,29 +2,55 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Контакты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Семестровая работа</title>
     <link rel="stylesheet" href="../style/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Мой Сайт</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="goods.html">Каталог товаров</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-    </nav>
-    <main>
-        <p>Адрес электронной почты: info@moysait.ru</p>
-        <p>Адрес: ул. Примерная, д. 123, г. Москва</p>
-        <button>Позвоните мне</button>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Мой Сайт. Все права защищены.</p>
-    </footer>
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 class="profile-title">Контактная информация</h1>
+            
+            <div class="contacts-section">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3 class="experience-title">📧 Email</h3>
+                        <p class="experience-desc">denis.epifanov@example.com</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3 class="experience-title">📞 Телефон</h3>
+                        <p class="experience-desc">+7 (999) 123-45-67</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3 class="experience-title">🏢 Адрес</h3>
+                        <p class="experience-desc">г. Москва, ул. Образцовая, д. 123</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2 class="section-title">Напишите нам</h2>
+                    <form class="message-form">
+                        <input type="text" placeholder="Ваше имя" class="form-input">
+                        <input type="email" placeholder="Ваш email" class="form-input">
+                        <textarea placeholder="Ваше сообщение" class="form-textarea"></textarea>
+                        <button type="submit" class="submit-btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">Футер</div>
+    </div>
 </body>
 </html>

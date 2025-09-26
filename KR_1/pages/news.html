@@ -2,45 +2,46 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Новости</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости - Семестровая работа</title>
     <link rel="stylesheet" href="../style/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Мой Сайт</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="goods.html">Каталог товаров</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <div>
-            <h2>Новая версия продукта вышла</h2>
-            <p>Дата: 2025-09-25 | Автор: Admin</p>
-            <p>Мы рады объявить о выпуске новой версии нашего продукта с улучшенными функциями и повышенной производительностью.</p>
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
         </div>
-        
-        <div>
-            <h2>Акция на товары</h2>
-            <p>Дата: 2025-09-20 | Автор: Manager</p>
-            <p>Скидки до 50% на selected товары в течение недели. Не пропустите!</p>
+        <div class="content">
+            <h1 class="profile-title">Последние новости</h1>
+            
+            <div class="news-section">
+                <div class="news-card">
+                    <h3 class="experience-title">ОЧЕНЬ Важное обновление</h3>
+                    <p class="experience-desc">Бред1</p>
+                    <span class="news-date">15.12.2023</span>
+                </div>
+                
+                <div class="news-card">
+                    <h3 class="experience-title">СУПЕР МЕГА Новые возможности</h3>
+                    <p class="experience-desc">Бред2</p>
+                    <span class="news-date">10.12.2023</span>
+                </div>
+                
+                <div class="news-card">
+                    <h3 class="experience-title">Технические работы</h3>
+                    <p class="experience-desc">Бред3</p>
+                    <span class="news-date">05.12.2023</span>
+                </div>
+            </div>
         </div>
-        
-        <div>
-            <h2>Обновление сайта</h2>
-            <p>Дата: 2025-09-15 | Автор: Developer</p>
-            <p>Мы обновили дизайн и добавили новые страницы для удобства пользователей.</p>
-        </div>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Мой Сайт. Все права защищены.</p>
-    </footer>
+        <div class="footer">Футер</div>
+    </div>
 </body>
 </html>
