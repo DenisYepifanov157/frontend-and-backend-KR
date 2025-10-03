@@ -180,7 +180,7 @@ main.content {
 .news-container {
   display: grid;
   margin: 0 10px;
-  /* gap: 25px; */
+  height: 0;
 }
 .news-section{
   display: grid;
